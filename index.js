@@ -1,9 +1,6 @@
 // TODO: Buatlah data dari kedua user di sini
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
-let favoritColorFirstUser = ["Yellow", "Pink", "White", "Purple"];
-
-let favoritColorSecondUser = ["Blue", "Black", "Grey"];
 
 let educationFirstUser = new Map([
   ["nameSd", "SD 01"],
@@ -61,7 +58,7 @@ const Monica = {
   gender: "Female",
   age: 17,
   email: "monica@dingdong.com",
-  favoritColorFirstUser,
+  favoritColor: ["Yellow", "Pink", "White", "Purple"],
   isHavePet: true,
   educationFirstUser,
   favoriteRestaurantFirstUsers,
@@ -71,15 +68,15 @@ const Wendy = {
   gender: "Male",
   age: 23,
   email: "wendy@dingdong.com",
-  favoritColorSecondUser,
+  favoritColorSecondUser: ["Blue", "Black", "Grey"],
   isHavePet: false,
-  favoritColorSecondUser,
   educationSecondUser,
   favoriteRestaurantSecondUsers,
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [Monica, Wendy];
+
 
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
