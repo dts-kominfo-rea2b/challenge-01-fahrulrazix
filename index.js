@@ -52,7 +52,7 @@ favoriteRestaurantSecondUsers.add("Geprek");
 favoriteRestaurantSecondUsers.add("Pancake");
 favoriteRestaurantSecondUsers.add("Eggy");
 
-const firstUser = {
+const Monica = {
   name: "Monica",
   gender: "Female",
   age: 17,
@@ -62,7 +62,7 @@ const firstUser = {
   educationFirstUser,
   favoriteRestaurantFirstUsers,
 };
-const secondUser = {
+const Wendi = {
   name: "Wendy",
   gender: "Male",
   age: 23,
