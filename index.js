@@ -62,7 +62,7 @@ const Monica = {
   educationFirstUser,
   favoriteRestaurantFirstUsers,
 };
-const Wendi = {
+const Wendy = {
   name: "Wendy",
   gender: "Male",
   age: 23,
@@ -74,7 +74,7 @@ const Wendi = {
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
-const users = [firstUser, secondUser];
+const users = [Monica, Wendy];
 
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
