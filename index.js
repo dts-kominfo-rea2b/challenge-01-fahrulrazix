@@ -1,81 +1,74 @@
 // TODO: Buatlah data dari kedua user di sini
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
-
-let educationFirstUser = new Map([
-  ["nameSd", "SD 01"],
-  ["citySd", "Jakarta"],
-  ["graduateSd", 2016],
-  ["nameSmp", "SMP 02"],
-  ["citySmp", "Jakarta"],
-  ["graduateSmp", 2019],
-  ["nameSma", "SMA 03"],
-  ["citySma", "Tangerang"],
-  ["graduateSma", ""],
-]);
-
-let educationSecondUser = new Map([
-  ["nameSd", "SD 02"],
-  ["citySd", "Jakarta"],
-  ["graduateSd", 2010],
-  ["nameSmp", "SMP 03"],
-  ["citySmp", "Bogor"],
-  ["graduateSmp", 2013],
-  ["nameSma", "SMA 01"],
-  ["citySma", "Surabaya"],
-  ["graduateSma", 2016],
-  ["universitas", "Maju"],
-  ["universitasCity", "Tangerang"],
-  ["universitasGraduate", ""],
-]);
-
-let favoriteRestaurantFirstUsers = new Set();
-favoriteRestaurantFirstUsers.add("Bento");
-favoriteRestaurantFirstUsers.add("Sushi");
-favoriteRestaurantFirstUsers.add("Pancake");
-favoriteRestaurantFirstUsers.add("Eggy");
-favoriteRestaurantFirstUsers.add("Tempura");
-favoriteRestaurantFirstUsers.add("Bento");
-favoriteRestaurantFirstUsers.add("Eggy");
-favoriteRestaurantFirstUsers.add("Padang");
-favoriteRestaurantFirstUsers.add("Tteok");
-favoriteRestaurantFirstUsers.add("Sushi");
-favoriteRestaurantFirstUsers.add("Sushi");
-
-let favoriteRestaurantSecondUsers = new Set();
-favoriteRestaurantSecondUsers.add("Tempura");
-favoriteRestaurantSecondUsers.add("Bento");
-favoriteRestaurantSecondUsers.add("Sushi");
-favoriteRestaurantSecondUsers.add("Pancake");
-favoriteRestaurantSecondUsers.add("Padang");
-favoriteRestaurantSecondUsers.add("Katsu");
-favoriteRestaurantSecondUsers.add("Geprek");
-favoriteRestaurantSecondUsers.add("Pancake");
-favoriteRestaurantSecondUsers.add("Eggy");
-
-const Monica = {
-  name: "Monica",
-  gender: "Female",
-  age: 17,
-  email: "monica@dingdong.com",
-  favoritColor: ["Yellow", "Pink", "White", "Purple"],
-  isHavePet: true,
-  educationFirstUser,
-  favoriteRestaurantFirstUsers,
+const firstUser = {
+    name: 'Monica',
+    gender: 'F',
+    age: 17,
+    email: 'monica@dingdong.com',
+    favoriteColor: [
+        'Yellow', 'Pink', 'White', 'Purple'
+    ],
+    isHavePet: true,
+    education: [
+        {
+            name: 'SD 01',
+            city: 'Jakarta',
+            graduate: 2016
+        },
+        {
+            name: 'SMP 02',
+            city: 'Jakarta',
+            graduate: 2019
+        },
+        {
+            name: 'SMA 03',
+            city: 'Tangerang',
+            graduate: 0
+        }
+    ],
+    favoriteRestaurant: [
+        'Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Padang', 'Tteok'
+    ]
 };
-const Wendy = {
-  name: "Wendy",
-  gender: "Male",
-  age: 23,
-  email: "wendy@dingdong.com",
-  favoritColorSecondUser: ["Blue", "Black", "Grey"],
-  isHavePet: false,
-  educationSecondUser,
-  favoriteRestaurantSecondUsers,
+const secondUser = {
+    name: 'Wendy',
+    gender: 'M',
+    age: 17,
+    email: 'wendy@dingdong.com',
+    favoriteColor: [
+        'Blue', 'Black', 'Grey'
+    ],
+    isHavePet: false,
+    education: [
+        {
+            name: 'SD 02',
+            city: 'Jakarta',
+            graduate: 2010
+        },
+        {
+            name: 'SMP 03',
+            city: 'Bogor',
+            graduate: 2013
+        },
+        {
+            name: 'SMA 01',
+            city: 'Surabaya',
+            graduate: 2016
+        },
+        {
+            name: 'Universitas Maju',
+            city: 'Tangerang',
+            graduate: 0
+        }
+    ],
+    favoriteRestaurant: [
+        'Tempura', 'Bento', 'Sushi', 'Pancake', 'Padang', 'Katsu', 'Geprek', 'Eggy'
+    ]
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
-const users = [Monica, Wendy];
+const users = [firstUser, secondUser];
 
 
 // ! JANGAN MODIFIKASI LINE DI BAWAH
