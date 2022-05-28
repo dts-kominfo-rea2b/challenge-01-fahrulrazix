@@ -1,9 +1,9 @@
 // TODO: Buatlah data dari kedua user di sini
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
-let favoritColorFirstUser = ["Yellow", "Pink", "White", "Purple"]
+let favoritColorFirstUser = ["Yellow", "Pink", "White", "Purple"];
 
-let favoritColorSecondUser = ["Blue", "Black", "Grey"]
+let favoritColorSecondUser = ["Blue", "Black", "Grey"];
 
 let educationFirstUser = new Map([
   ["nameSd", "SD 01"],
